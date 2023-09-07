@@ -1,0 +1,22 @@
+package com.code.blogapp.service;
+
+import java.util.List;
+
+import javax.validation.Valid;
+
+import com.code.blogapp.dto.AddEmployeeDTO;
+import com.code.blogapp.dto.EmployeeRespDTO;
+
+public interface EmployeeService {
+//get list of emps from a specific dept
+	List<EmployeeRespDTO> getAllEmployeesFromDept(Long deptId);
+
+//delete emp details
+	String deleteEmpDetails(Long empId);
+
+	EmployeeRespDTO addNewEmployee(AddEmployeeDTO dto);
+
+	EmployeeRespDTO updateEmployee(Long empId, AddEmployeeDTO dto);
+
+	EmployeeRespDTO getEmpDetails(Long deptId, Long empId);
+}

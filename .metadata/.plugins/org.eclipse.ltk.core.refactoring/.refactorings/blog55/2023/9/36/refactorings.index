@@ -1,0 +1,11 @@
+1694104347194	Rename package 'com.app'
+1694104405981	Rename type 'Application'
+1694105019127	Delete elements
+1694105079756	Rename package 'controllers'
+1694105092632	Rename package 'entities'
+1694105105398	Rename package 'exception'
+1694105113214	Rename package 'payloads'
+1694105121222	Rename package 'repositories'
+1694105165889	Rename package 'services.impl'
+1694105246661	Delete element
+1694105367599	Rename package 'com.code.blogapp.services.impl'

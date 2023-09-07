@@ -1,0 +1,15 @@
+package com.code.blogapp.service;
+
+import java.util.List;
+
+import com.code.blogapp.dto.DepartmentDTO;
+import com.code.blogapp.dto.DepartmentEmpsDTO;
+import com.code.blogapp.entities.Department;
+
+public interface DepartmentService {
+	List<Department> getAllDepartmens();
+	DepartmentDTO getDepartmentDetails(Long deptId);
+	DepartmentDTO addNewDepartment(DepartmentDTO dept);
+	DepartmentEmpsDTO getDepartmentAndEmpDetails(Long deptId);
+	
+}

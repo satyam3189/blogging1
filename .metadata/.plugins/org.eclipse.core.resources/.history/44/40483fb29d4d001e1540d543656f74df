@@ -1,0 +1,9 @@
+package com.code.blogapp.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.code.blogapp.entities.Address;
+
+public interface AddressRepository extends JpaRepository<Address, Long> {
+	
+}
